@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katje Watermeloen Clicker</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" type="images/icon" href="images/favicon.jpg" />
+    <script src="javascript/index.js" defer></script>
+  </head>
+  <body>
+    <main id="spelletje">
+      <h1 id="titel">Help kitty met eten</h1>
+      <h2 id="teller">0</h2>
+      <p id="melding"></p>
+
+      <img
+        id="springKat"
+        class="katje-img"
+        src="images/cat-cute.gif"
+        style="display: none"
+        alt="gif van kat dit springt"
+      />
+      <audio id="happy" src="audio/happyy.mp3" loop></audio>
+
+      <img
+        id="katje"
+        class="katje-img"
+        src="images/watermeloenkat.jpg"
+        alt="Katje eet watermeloen"
+      />
+      <img
+        id="katje-hamburger"
+        class="katje-img"
+        src="images/hamburgerkat.jpg"
+        alt="katje eet hamburger"
+        style="display: none"
+      />
+      <img
+        id="katje-cookie"
+        class="katje-img"
+        src="images/cookiekat.jpg"
+        alt="Katje eet cookie"
+        style="display: none"
+      />
+
+      <button id="watermeloen-button">Geef watermeloen (+1)</button>
+
+      <div id="upgrades">
+        <button id="hamburger-button">Geef hamburger(+3)</button>
+        <button id="cookie-button">Geef cookie(+5)</button>
+        <button id="reset-button" style="display: none">Begin opnieuw</button>
+      </div>
+    </main>
+  </body>
+</html>

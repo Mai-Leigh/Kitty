@@ -1,0 +1,72 @@
+body {
+  background-color: #ffb8b8;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin: auto;
+  padding: 2em;
+  color: #ff6b6b;
+  display: flex;
+  justify-content: center;
+}
+
+#spelletje {
+  background-color: #ffffff;
+  max-width: 200em;
+  margin: auto;
+  padding: 2em;
+  border-radius: 4em;
+  display: flex;
+  flex-direction: column;
+}
+
+.katje-img {
+  width: 33em;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+#teller {
+  background-color: #ff6b6b;
+  border: 1em solid #ff6b6b;
+  padding: 0em;
+  border-radius: 1em;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 1em auto;
+  color: #ffffff;
+}
+
+#melding {
+  color: #ff4141;
+  height: 1em;
+  margin-top: 1em;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+button {
+  background-color: #ff9e7d;
+  border: none;
+  color: white;
+  padding: 1em;
+  margin: 0em;
+  border-radius: 3em;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #ff6b6b;
+}
+
+#upgrades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1em;
+}
